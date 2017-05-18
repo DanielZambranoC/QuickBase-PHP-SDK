@@ -451,7 +451,7 @@
 			$response = $this->transmit($url_string);
 		}
 		if($response) {
-			return true;
+			return $response;
 		}
 		return false;
 	}
